@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Product Lab is a venture capital firm focused on early-stage startups. Discover our team, portfolio, and vision.">
+  <title>Product Lab</title>
+  <script type="module" crossorigin src="/productlab-demo-site/assets/index-B9sT1hfV.js"></script>
+  <link rel="stylesheet" crossorigin href="/productlab-demo-site/assets/index-BnhO-Mg1.css">
+</head>
+
+<body class="bg-white min-h-screen overflow-x-hidden">
+  <div id="logo-view" class="fixed inset-0 bg-white flex items-center justify-center z-50 logo-reveal">
+    <div class="text-center">
+      <h1 class="text-6xl md:text-8xl font-light text-primary mb-4 tracking-wide">
+        productlab
+      </h1>
+    </div>
+  </div>
+
+  <main id="content" class="relative hidden translate-y-[30px]">
+    <header class="fixed top-0 w-full z-40 bg-white/80">
+      <nav class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+        <div class="text-xl text-primary font-semibold">productlab</div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="text-primary hover:text-accent transition-colors duration-300">About</a>
+          <a href="#people" class="text-primary hover:text-accent transition-colors duration-300">People</a>
+          <a href="#portfolio" class="text-primary hover:text-accent transition-colors duration-300">Portfolio</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="min-h-screen flex items-center pt-16">
+      <div class="max-w-7xl mx-auto px-6 py-20">
+        <div class="max-w-4xl">
+          <h1 class="text-5xl md:text-7xl text-primary mb-8 leading-tight">
+            Venture Capital and
+            <span class="text-accent">Private Equity Principals</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-700 mb-12 leading-relaxed font-light">
+            We develop and operate technology-based companies, products, and services. Our unique experience enables us
+            to provide integrated business and technology support in the start-up and rapid-growth stages.
+          </p>
+          <a href="mailto:info@productlab.com"
+            class="bg-primary text-white px-8 py-4 rounded-none text-lg font-medium hover:bg-accent transition-all duration-300 hover:shadow-lg">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="people" class="py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="mb-20">
+          <h2 class="text-4xl md:text-5xl font-extralight text-primary mb-6">Our Team</h2>
+          <p class="text-xl text-gray-700 max-w-2xl font-light">
+            Experienced leaders and innovators driving success across our portfolio companies
+          </p>
+        </div>
+
+        <div id="people-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-24 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="mb-20">
+          <h2 class="text-4xl md:text-5xl font-extralight text-primary mb-6">Portfolio Companies</h2>
+          <p class="text-xl text-gray-700 max-w-2xl font-light">
+            Companies we've helped build and scale to success
+          </p>
+        </div>
+        <div id="portfolio-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"></div>
+      </div>
+    </section>
+
+    <footer class="py-16 border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="border-t border-white/10 mt-12 pt-8 text-center text-gray-400">
+          <p>&copy; <span id="year"></span> Product Lab. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
